@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+    <title>Document</title>
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+</head>
+<style>
+    .allmenu{
+        background: #fff;
+        box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5); 
+        height: 70px;
+
+    }
+    .logo{
+        width: 15%;
+        padding-top: 5px;
+    }
+    .thanhtimkiem{
+        float: right;
+        Padding: 10px;
+    }
+    .searchButton {
+  border: 1px solid #00B4CC;
+  background-image: linear-gradient(135deg, #0066be, #1d009c);
+  color: rgb(255, 181, 21);
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+  font-size: 20px;
+  font-weight: bold;
+
+}
+.searchTerm {
+  
+}
+    .bigmenu{
+        float: right;
+        list-style-type: none;
+        padding-top: 10px;
+    }
+    .menu{
+        display: inline;
+        margin-right: 25px;
+    }
+    a{
+        text-decoration: none;
+        color: black;
+        font-weight: bold;
+        font-size: 17px;
+        display:inline-block;
+        padding:10px;
+    }
+    a:hover {
+    color: rgb(0, 22, 150);
+    border-bottom: 3px solid orange;
+    text-decoration: none;
+    }
+    P{
+        text-align: center;
+        font-size: 40px;
+        Color: rgb(0, 0, 116);
+        font-weight: bold;
+        padding-top: 50px;
+
+    }
+
+    .allimage{
+        display: flex;
+        justify-content: space-evenly;
+        Padding-top: 50px;
+
+    }
+    .imagefather{
+        width: 10%;
+        background-color: white;
+    }
+    .underimg{
+        background-color: white;
+        padding: 10px;
+        font-size: 18px;
+        width: 300px;
+
+    }
+    .alltrang2{
+
+    }
+    
+</style>
+<body>
+    <div class="allmenu">
+        <img class="logo" src="https://americanstudy.edu.vn/wp-content/uploads/2020/04/Logo-AS-1.png">
+        <div class="thanhtimkiem">
+          <div class="wrap">
+              <form action="" class="search" method="post">
+                 <input type="text" class="searchTerm" placeholder="search">
+                 <button type="submit" class="searchButton">
+                   Submit
+                </button>
+              </form>
+           </div>
+        </div>
+
+        <ul class="bigmenu">
+            <li  class="menu"><a href="#trang1">Giới thiệu </a>  </li>
+            <li  class="menu"><a href="#trang2">Các khoá luyện thi</a>  </li>
+            <li  class="menu"><a href="#trang3">Học trực tuyến</a> </li>
+            <li  class="menu"><a href="#trang4">Du học </a> </li>
+            <li  class="menu"><a href="#trang5">Trại hè </a> </li>
+            <li  class="menu"><a href="#trang6">Tin tức </a> </li>
+        </ul>
+    </div>
+
+    <div id="carouselId" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+            <li data-target="#carouselId" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselId" data-slide-to="1"></li>
+            <li data-target="#carouselId" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner" role="listbox">
+            <div class="carousel-item active">
+                <img src="https://sgp1.digitaloceanspaces.com/teky-prod/teky-edu-vn/media/C-PA-1218-2020SNLTWcourse_instances/course_instances/2022-05-31course_instances/_DSC6701.JPG" alt="First slide" style="width:100%">
+            </div>
+            <div class="carousel-item">
+                <img src="https://sgp1.digitaloceanspaces.com/teky-prod/teky-edu-vn/media/C-RB-711-2020KPRBcourse_instances/course_instances/2022-06-01course_instances/_DSC6502.JPG" alt="Second slide" style="width:100%">
+            </div>
+            <div class="carousel-item">
+                <img src="https://image.thanhnien.vn/w660/Uploaded/2022/xdrkxrvekx/2019_07_12/1_wmfj.jpg" alt="Third slide" style="width:50%">
+            </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselId" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselId" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+    </div>
+</nav>
+   
+    
+    <!-- Modal -->
+    <div class="modal fade" id="modelId1" tabindex="-1" role="dialog" aria-labelledby="modelTitleId" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" style="font-size: 30px; font-family: fantasy;">Click save to go</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                </div>
+                <div class="modal-body">
+                    Body
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary" data-dismiss="modal">Save</button>
+                </div>
+            </div>
+        </div>
+    </div>    
+        </div>
+    <div class="alltrang2">
+    <p> Chúng tôi giúp bạn</p>
+        </div>
+        <div class="allimage">
+            <div class="imagefather">
+                <div class="image1" >
+                    <img style="width:100%" src="https://toeic900.vn/wp-content/uploads/2020/12/nasao_test.png">
+                </div>
+                <div class ="underimg">
+                    <span style="color:#15045f; font-weight: bold;" >XÂY DỰNG LỘ TRÌNH DU HỌC MỸ</span>
+                    <br>
+                    <span>Hướng dẫn bạn từng bước chuẩn bị lộ trình du học Mỹ hiệu quả và chuẩn xác nhất. Tự tin chuẩn bị hành trang chinh phục giấc mơ Mỹ</span>
+                    <br>
+                </div>
+            </div>    
+
+            <div class="imagefather">
+                <div class="image2" >
+                    <img style="width:100%" src="https://toeic900.vn/wp-content/uploads/2020/12/nasao_test-3.png">
+                </div>
+                <div class ="underimg">
+                    <span>LUYỆN THI CHỨNG CHỈ QUỐC TẾ</span>
+                    <br>
+                    <span>Đào tạo chứng chỉ IELTS, TOEFL, SAT, ACT, AP,... với đội ngũ giáo viên người bản xứ. Tốt nghiệp các trường đại học hàng đầu Hoa Kỳ</span>
+                    <br>
+                    
+                </div>
+            </div>  
+
+            <div class="imagefather">
+                <div class="image3" >
+                    <img style="width:100%" src="https://toeic900.vn/wp-content/uploads/2020/12/nasao_grammar.png">
+                </div>
+                <div class ="underimg">
+                    <span> TÌM KIẾM HỌC BỔNG DU HỌC MỸ</span>
+                    <br>
+                    <span>Tìm kiếm học bổng Merit-Based, Need-Based và các hình thức hỗ trợ tài chính khác từ các trường đại học top đầu khối NU và LAC</span>
+                    <br>
+                </div>
+            </div>  
+    </div>
+
+           
+
+
+
+
+</body>
+</html>
